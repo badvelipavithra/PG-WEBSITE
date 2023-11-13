@@ -1,0 +1,55 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* margin-left: 1000px; */
+  }
+  .navElement{
+    margin: 30px;
+
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 171, 171);
+    position: sticky;
+    top: 0;
+    z-index: 1290;
+  }
+  .pavi{
+    height: 600px;
+    width: 80vw;
+    object-position: center;
+    margin-left: 10vw;
+    background-color: black;
+   }
+   .items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+   }
+   .eachFacility{
+    flex-basis: 33%;
+     padding: 0.5rem;
+     margin-bottom: 0.5rem;
+     border-radius: 30px;
+     display: flex;
+
+   }
+   .spanStyle{
+    border: 1px solid #ccc ;
+    border-radius: 30px;
+    padding: 10px;
+   }
+   #image{
+    height: 24px;
+    width: 24px;
+   }
+
+  
