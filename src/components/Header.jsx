@@ -1,9 +1,9 @@
-import logo from "../assets/bed-7.png"
+import logo from "../assets/Screenshot 2023-11-14 210824.png"
 const Header=()=>{
 
     return(
         <div className="header">
-        <img src={logo} width={100} height={100} color="white" alt="" /> 
+        <img src={logo} width={100} height={100} color="white" id="logo" alt="" /> 
         <ul className="topContainer" >
          <li className="navElement"  onClick ={() => {
          const anchor = document.querySelector('#home')
@@ -14,7 +14,9 @@ const Header=()=>{
          <li className="navElement" onClick ={() => {
          const anchor = document.querySelector('#facilities')
           anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}} >Facilities</li>
-         <li className="navElement">features</li>
+         <li className="navElement"  onClick ={() => {
+         const anchor = document.querySelector('#facilities')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}}>Prices</li>
         </ul>
      </div>
     )

@@ -5,6 +5,7 @@ import ImageCarousel from "./components/ImageCarousel"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from "./components/About";
 import Facilities from "./components/Facilities";
+import Prices from "./components/Prices";
 
 
 const App=()=>{
@@ -14,7 +15,10 @@ const App=()=>{
         <Header></Header>
         <ImageCarousel></ImageCarousel>
         <About></About>
-        <Facilities></Facilities>
+        <Facilities>
+
+        </Facilities>
+        <Prices></Prices>
 
        </div>
     )
